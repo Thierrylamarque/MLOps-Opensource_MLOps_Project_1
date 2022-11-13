@@ -4,6 +4,7 @@
 
 tasks:
   - init: |
+      git branch dev
       python -m venv .venv
       source .venv/bin/activate
       pip install -U pip
